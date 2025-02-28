@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	background: #2980b9;
+	color: #fff;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.optionsBar {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.photouser {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+.close {
+	width: 25px;
+	height: 25px;
+}
+
+nav {
+	background: #34495e;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 12px;
+	display: block;
+}
+
+.principal {
+	position: relative;
+}
+
+.principal ul {
+	display: none;
+	position: absolute;
+	background: #34495e;
+	min-width: 150px;
+	padding: 5px;
+}
+
+.principal:hover ul {
+	display: block;
+}
